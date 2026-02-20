@@ -1,0 +1,116 @@
+{
+	"compiler": {
+		"version": "0.8.31+commit.fd3a2265"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "bytes32",
+						"name": "offerHash",
+						"type": "bytes32"
+					}
+				],
+				"name": "addOffer",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes32",
+						"name": "offerHash",
+						"type": "bytes32"
+					}
+				],
+				"name": "getIssuer",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"name": "offers",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes32",
+						"name": "offerHash",
+						"type": "bytes32"
+					}
+				],
+				"name": "verifyOffer",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"OfferVerification.sol": "OfferVerification"
+		},
+		"evmVersion": "osaka",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"OfferVerification.sol": {
+			"keccak256": "0x20018c645eae55db6e04c2f6a276d71b1b776762ab978e01bab26aeae80ec3e7",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://453eb423b9a8f44fb3274d6257eeabd7fdd55850e23ce494b895cb42ea7e0b4b",
+				"dweb:/ipfs/QmTEon4DehjCjgkYQF7zb4NuypLyRF37hm3tgGMTsUfaK9"
+			]
+		}
+	},
+	"version": 1
+}
